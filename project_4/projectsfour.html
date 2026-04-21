@@ -1,428 +1,467 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel</title>
-    <link rel="stylesheet" href="projectfour/css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timbet</title>
+  <link rel="stylesheet" href="projectfour/css/main.css">
 </head>
 <body>
     <div class="hero">
         <div class="container">
-             <div class="hero__header">
-                <div class="hero__header-logo">
-                     <img src="projectfour/images/image timbet.png" alt="timbet" class="logo">
-                      <div class="hero__header-links">
-                         <a href="#" class="link">Главная</a>
-                          <a href="#" class="link">Про гида</a>
-                           <a href="#" class="link">Программа тура</a>
-                            <a href="#" class="link">Стоимость</a>
-                             <a href="#" class="link">Блог</a>
-                              <a href="#" class="link">Контакты</a>
-                               <div class="header__button">
-                                 <button class="button">Консультация</button>
-                               </div>
+          <div class="header">
+              <div class="header__logo-links-button">
+                  <div class="header__logo">
+                      <img src="projectfour/images/image timbet.png" alt="timbet" class="header__img">
+                  </div>
+                    <div class="header__links">
+                        <a href="#" class="links">Главная</a>
+                          <a href="#" class="links">Про гида</a>
+                            <a href="#" class="links">Программа тура</a>
+                              <a href="#" class="links">Стоимость</a>
+                                <a href="#" class="links">Блог</a>
+                                  <a href="#" class="links">Контакты</a> 
+                    </div>
+                      <div class="header__button">
+                          <button class="consult">Консультация</button>
                       </div>
-                </div>
-             </div>
-              <div class="hero__title">
-                 <p class="title">Насладись прогулкой в горах
-                    с командой единомышленников</p>
               </div>
-               <div class="hero__inputs-button">
-                 <div class="inputs__button">
-                     <div class="inputs">
-                         <input type="text" list="location" class="input" placeholder="Локация для тура">
-                          <datalist id="location">
-                             <option value="Пятигорск">Пятигорск</option>
-                              <option value="Нальчик">Нальчик</option>
-                               <option value="Минеральные Воды">Минеральные Воды</option>
-                                <option value="Железноводск">Железноводск</option>
-                                 <option value="Кисловодск">Кисловодск</option>
-                                  <option value="Владикавказ">Владикавказ</option>
-                                   <option value="Грозный">Грозный</option>
-                                    <option value="Домбай">Домбай</option>
-                                     <option value="Архыз">Архыз</option>
-                                      <option value="Эльбрус">Эльбрус</option>
-                          </datalist><br>
-                           <label>выберите из списка</label>
-                     </div>
-                     <div class="inputs">
-                         <input type="date" list="date" class="input" placeholder="Дата Похода">
-                          <datalist id="date">
-                             <option value="31.03.2026">31.03.2026</option>
-                              <option value="01.04.2026">01.04.2026</option>
-                               <option value="02.04.2026">02.04.2026</option>
-                                <option value="03.04.2026">03.04.2026</option>
-                                 <option value="04.04.2026">04.04.2026</option>
-                                  <option value="05.04.2026">05.04.2026</option>
-                                   <option value="06.04.2026">06.04.2026</option>
-                                    <option value="07.04.2026">07.04.2026</option>
-                                     <option value="08.04.2026">08.04.2026</option>
-                                      <option value="09.04.2026">09.04.2026</option>
-                          </datalist><br>
-                           <label>укажите диапазон</label>
-                     </div>
-                      <div class="inputs">
-                         <input type="number" list="number" class="input" placeholder="Участники">
-                          <datalist id="number">
-                             <option value="4">4</option>
-                              <option value="5">5</option>
-                               <option value="6">6</option>
-                                <option value="7">7</option>
-                                 <option value="8">8</option>
-                                  <option value="9">9</option>
-                                   <option value="10">10</option>
-                                    <option value="11">11</option>
-                                     <option value="12">12</option>
-                                      <option value="13">13</option>
-                          </datalist><br>
-                           <label>минимум 4 человека</label>
+          </div>
+            <div class="header__title">
+                <p class="title">НАСЛАДИСЬ ПРОГУЛКОЙ В ГОРАХ
+                    В КОМАНДЕ ЕДИНОМЫШЛЕННИКОВ
+                </p>
+            </div>
+              <div class="header__inputs-block">
+                  <div class="header__inputs-button">
+                      <div class="head__input">
+                          <input type="text" class="input" list="location" placeholder="Локация для тура">
+                            <datalist id="location">
+                                  <option value="Пятигорск">Пятигорск</option>
+                                    <option value="Минеральные Воды">Минеральные Воды</option>
+                                      <option value="Железноводск">Железноводск</option>
+                                        <option value="Кисловодск">Кисловодск</option>
+                                          <option value="Владикавказ">Владикавказ</option>
+                            </datalist>
+                              <div class="input__content">
+                                  <p class="content">выберите локацию для тура</p>
+                              </div>
                       </div>
-                       <div class="search__button">
-                         <button class="search">Найти программу</button>
-                       </div>
-                 </div>
-               </div>
+                        <div class="head__input">
+                            <input type="date" class="input" list="hike" placeholder="Дата Похода">
+                              <datalist id="hike">
+                                    <option value=""></option>
+                                      <option value=""></option>
+                                        <option value=""></option>
+                                          <option value=""></option>
+                                            <option value=""></option>
+                                              <option value=""></option>
+                                                <option value=""></option>
+                                                  <option value=""></option>
+                                                    <option value=""></option>
+                                                      <option value=""></option>
+                              </datalist>
+                                <div class="input__content">
+                                    <p class="content">укажите диапазон</p>
+                                </div>
+                        </div>
+                          <div class="head__input">
+                              <input type="text" class="input" list="practic" placeholder="Участники">
+                                <datalist id="practic">
+                                      <option value="1">1</option>
+                                        <option value="2">2</option>
+                                          <option value="3">3</option>
+                                            <option value="4">4</option>
+                                              <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                  <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                      <option value="9">9</option>
+                                                        <option value="10">10</option>
+                                </datalist>
+                                  <div class="input__content">
+                                      <p class="content">минимум 4 челоека</p>
+                                  </div>
+                          </div>
+                            <div class="button__search">
+                                <button class="search">Найти программу</button>
+                            </div>
+                  </div>
+              </div>
         </div>
     </div>
 
-
-     <div class="hike">
-       <div class="container">
-        <div class="hike__block">
-           <div class="hike__images">
-             <img src="projectfour/images/image everest.png" alt="everest" class="images-ever">
-              <img src="projectfour/images/image derev.png" alt="derev" class="images-derev">
-           </div>
-             <div class="hike__title-description-button">
-               <div class="hike__title-description">
-                 <p class="hike__title">о нашем походе</p>
-                  <p class="hike__description">Исследуйте все горные массивы
-                     мира вместе с нами
-                  </p>
-               </div>
-                 <div class="hike__description-text">
-                   <p class="description__text">Его корни уходят в один фрагмент классической латыни 45 года
-                     н.э., то есть более двух тысячилетий назад. Ричард МакКлинток,
-                      профессор латыни из колледжа Hampden-Sydney, штат
-                       Вирджиния, взял одно из самых странных слов в Lorem Ipsum,
-                        "consectetur", и занялся его поисками в классической латинской
-                         литературе.
-                   </p>
-                 </div>
-                   <div class="hike__buttons">
-                     <button class="hike__programm">Программа тура</button>
-                   </div>
-             </div>
-        </div>
-     </div>
-
-
-      <div class="programm">
-        <div class="containers">
-          <div class="programm__best">
-             <div class="programm__best-title-description">
-               <p class="programm__title">наше предложение</p>
-                <p class="programm__description">Лучшие программы для тебя</p>
-             </div>
-              <div class="programm__best-description">
-                 <p class="best__description">Его корни уходят в один фрагмент классической латыни 45 года 
-                   н.э., то есть более двух тысячилетий назад. Ричард МакКлинток,
-                   профессор латыни из колледжа.
-                 </p>
-              </div>
-               <div class="programm__best-grid">
-                 <div class="best__grid">
-                   <img src="projectfour/images/human gid.png" alt="gid" class="grid">
-                    <p class="grid__text">Опытный гид</p>
-                     <p class="grid__description">Для современного мира базовый вектор развития предполагает
-                       независимые способы реализации соответствующих условий активизации.
-                     </p>
-                 </div>
-                  <div class="best__grid">
-                     <img src="projectfour/images/shit.png" alt="shit" class="grid">
-                      <p class="grid__text">Безопасный подход</p>
-                       <p class="grid__description">Для современного мира базовый вектор развития предполагает
-                         независимые способы реализации соответствующих условий активизации
-                       </p>
+      <div class="about">
+          <div class="container">
+              <div class="about__grid-content">
+                  <div class="about__grid">
+                      <img src="projectfour/images/image everest.png" alt="everest" class="about__img">
+                        <div class="about__grid-two">
+                            <img src="projectfour/images/image derev.png" alt="derev" class="about__img">
+                        </div>
                   </div>
-                   <div class="best__grid">
-                     <img src="projectfour/images/ticket.png" alt="ticket" class="grid">
-                      <p class="grid__text">Лояльные цены</p>
-                       <p class="grid__description">Для современного мира базовый вектор развития предполагает
-                         независимые способы реализации соответствующих условий активизации
-                       </p>
-                   </div>
-               </div>
-                 <div class="price__button">
-                   <button class="price">Стоимость программы</button>
-                 </div>
+                    <div class="about__content">
+                        <div class="about__title">
+                            <p class="hike__title">о нашем походе</p>
+                              <p class="hike__descriptions">Исследуйте все горные массивы
+                                  мира вместе с нами
+                              </p>
+                        </div>
+                          <div class="about__descriptions">
+                              <p class="about__text">Его корни уходят в одинг фрагент классической латыни 45 года
+                                  н.э., то есть более двух тысячелетий назад. Ричард МакКлинток,
+                                    профессор латыни из колледжа Hampden-Sydney, штат
+                                      Вирджиния, взял одно ииз самых распространённых слов в Lorem Ipsum,
+                                        "consectetur" и занялся его поисками в классической латинской
+                                          литературе.
+                              </p>
+                          </div>
+                            <div class="about__button">
+                                <button class="programm">Программа тура</button>
+                            </div>
+                    </div>
+              </div>
           </div>
-           <div class="programm__images-grid">
-             <img src="projectfour/images/image tea.png" alt="tea" class="images__grid">
-              <img src="projectfour/images/image human.png" alt="human" class="images__grid">
-               <img src="projectfour/images/image winter.png" alt="winter" class="images__grid">
-                <img src="projectfour/images/image green.png" alt="green" class="images__grid">
-           </div>
-        </div>
       </div>
 
-
-       <div class="directions">     
-         <div class="container">
-           <div class="directions__title">
-             <p class="directions__text">по версии отдыхающих</p>
-           <p class="directions__description">Популярные направления</p>
-       </div>
-            <div class="directions__grid-cards">
-               <div class="grid__card">
-                 <img src="projectfour/images/image grev.png" alt="grev" class="grid__images">
-                  <div class="card__content">
-                     <p class="card__title">Озеро возле гор</p>
-                      <p class="card__descriptions">романтическое приключение</p>
-                       <div class="card__price">
-                         <p class="price__dollar">480 $</p>
-                       </div>
-                  </div>
-               </div>
-                <div class="grid__card">
-                   <img src="projectfour/images/image lod.png" alt="lod" class="grid__images">
-                    <div class="card__content">
-                       <p class="card__title">Ночь в горах</p>
-                        <p class="card__descriptions">в компании друзей</p>
-                         <div class="card__price">
-                           <p class="price__dollar">500 $</p>
-                         </div>
-                    </div>
-                </div>
-                 <div class="grid__card">
-                   <img src="projectfour/images/image ioga.png" alt="ioga" class="grid__images">
-                    <div class="card__content">
-                       <p class="card__title">Йога в горах</p>
-                        <p class="card__descriptions">для тех кто заботится о себе</p>
-                         <div class="card__price">
-                           <p class="price__dollar">230 $</p>
-                         </div>
-                    </div>
-                 </div>
-            </div>
-             <div class="rating__button">
-               <button class="rating">Рейтинг направлений</button>
-             </div>
-         </div>
-       </div>
-
-
-        <div class="travels">
-           <div class="container">
-             <div class="travels__greetings">
-                <p class="greetings__title">делимся впечатлениями</p>
-                 <p class="greeting__descriptions">Блог о путешествиях</p>
-             </div>
-              <div class="travels__world">
-                  <div class="travels__card">
-                     <div class="travels__images">
-                       <img src="projectfour/images/italy house.png" alt="italy" class="card">
-                     </div>
-                      <div class="travels__content">
-                         <div class="travels__content-title">
-                           <p class="travels__title">Красивая Италия, какая
-                             она в реальности?
-                           </p>
-                             <div class="travels__content-descriptions">
-                               <p class="travels__descriptions">Для современного мира базовый вектор
-                                 развития предполагает независимые
-                                  способы реализации соответствующих
-                                   условий активизации.
-                               </p>
-                                <div class="travels__footer">
-                                   <p class="travels__date">01/04/2023</p>
-                                    <p class="travels__state">читать статью</p>
-                                </div>
-                             </div>
-                         </div>
-                      </div>
-                  </div>
-                   <div class="travels__card">
-                     <div class="travels__images">
-                       <img src="projectfour/images/image nebo.png" alt="nebo" class="card">
-                     </div>
-                      <div class="travels__content">
-                         <div class="travels__content-title">
-                           <p class="travels__title">Долой сомнения! Весь
-                             мир открыт для вас !
-                           </p>
-                            <div class="travels__content-descriptions">
-                               <p class="travels__descriptions">Для современного мир базовый вектор
-                                 развития предполагает независимые
-                                  способы реализации соответствующих
-                                   условий активизации ... независимые
-                                    способы реализации соответствующих усл...
-                               </p>
-                                <div class="travels__footer">
-                                   <p class="travels__date">01/04/2023</p>
-                                    <p class="travels__state">читать статью</p>
-                                </div>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                     <div class="travels__card">
-                       <div class="travels__images">
-                         <img src="projectfour/images/image human city.png" alt="city" class="card">
-                       </div>
-                        <div class="travels__content">
-                           <div class="travels__content-title">
-                             <p class="travels__title">Как подготовится к
-                               путешествию в 
-                                одиночку?
-                             </p>
-                              <div class="travels__content-descriptions">
-                                 <p class="travels__descriptions">Для современного мира базовый вектор
-                                   развития предполагает.
-                                 </p>
-                                  <div class="travels__footer">
-                                     <p class="travels__date">01/04/2023</p>
-                                      <p class="travels__state">читать статью</p>
-                                  </div>
-                              </div>
-                           </div>
+        <div class="services">
+            <div class="container">
+                <div class="services__content-grid">
+                    <div class="services__content">
+                        <div class="services__title">
+                            <p class="services__title-text">наше предложение</p>
+                              <p class="services__descriptions-text">Лучшие программы для тебя</p>
                         </div>
-                     </div>
-                       <div class="travels__card">
-                         <div class="travels__images">
-                           <img src="projectfour/images/image mahal.png" alt="mahal" class="card">
-                         </div>
-                          <div class="travels__content">
-                             <div class="travels__content-title">
-                               <p class="travels__title">Индия ... летим ?</p>
-                                <div class="travels__content__descriptions">
-                                   <p class="travels__descriptions">Для современного мира базовый</p>
-                                    <div class="travels__footer">
-                                       <p class="travels__date">01/04/2023</p>
-                                        <p class="travels__state">читать статью</p>
-                                    </div>
-                                </div>
-                             </div>
+                          <div class="services__descriptions">
+                              <p class="descriptions__text">Его корни уходят в один фрагмент классической латыни 45 года
+                                  н.э., то есть более двух тысячилетий назад. Ричард МакКлинток,
+                                    профессор латыни из колледжа.
+                              </p>
                           </div>
-                       </div>
-              </div>
-                <div class="button__materials">
-               <button class="materials">Другие материалы</button>
+                            <div class="services__cards">
+                                <div class="services__card">
+                                    <img src="projectfour/images/human gid.png" alt="gid" class="services__img">
+                                      <div class="content__card">
+                                          <p class="content__title">Опытный гид</p>
+                                            <p class="content__descriptions">Для современного мира базовый вектор развития предполагает
+                                                независимые способы реализации соответствующих условий активизации.
+                                            </p>
+                                      </div>
+                                </div>
+                                  <div class="services__card">
+                                      <img src="projectfour/images/shit.png" alt="shit" class="services__img">
+                                        <div class="content__card">
+                                            <p class="content__title">Безопасный поход</p>
+                                              <p class="content__descriptions">Для современного мира базовый вектор развития предполагает
+                                                  независимые способы реализации соответствующих условий активизации.
+                                              </p>
+                                        </div>
+                                  </div>
+                                    <div class="services__card">
+                                        <img src="projectfour/images/ticket.png" alt="ticket" class="services__img">
+                                          <div class="content__card">
+                                              <p class="content__title">Лояльные цены</p>
+                                                <p class="content__descriptions">Для современного мира базовый вектор развития предполагает
+                                                    независимые способы реализации соответствующих условий активизации.
+                                                </p>
+                                          </div>
+                                    </div>
+                                      <div class="services__button">
+                                          <button class="services__btn">Стоимость программ</button>
+                                      </div>
+                            </div>
+                    </div>
+                      <div class="services__grid">
+                          <img src="projectfour/images/image tea.png" alt="tea" class="grid__images">
+                            <img src="projectfour/images/image winter.png" alt="winter" class="grid__images">
+                              <img src="projectfour/images/image human.png" alt="human" class="grid__images">
+                                <img src="projectfour/images/image green.png" alt="green" class="grid__images">
+                      </div>
+                </div>
             </div>
-           </div>
         </div>
 
-         <div class="impressions">
-            <div class="container">
-               <div class="impressions__text">
-                 <p class="impressions__title">фото-отчет</p>
-                  <p class="impressions__descriptions">Делимся впечатлениями</p>
-               </div>
-                <div class="impressions__grid">
-                   <img src="projectfour/images/image cappadocia.png" alt="cappadocia" class="grid__img">
-                    <img src="projectfour/images/image map.png" alt="map" class="grid__img">
-                     <img src="projectfour/images/image parus.png" alt="parus" class="grid__img">
-                      <img src="projectfour/images/image sands.png" alt="sands" class="grid__img">
-                       <img src="projectfour/images/image conoin.png" alt="conoin" class="grid__img">
-                        <img src="projectfour/images/image jons.png" alt="jons" class="grid__img">
-                </div>
-                 <div class="impressions__button">
-                   <button class="pinterest">Наш pinterest</button>
-                 </div>
-            </div>
-         </div>
-
-          <div class="news">
-             <div class="container">
-               <div class="news__block">
-                 <div class="news__text">
-                   <p class="news__title">актуально</p>
-                    <p class="news__descriptions">Получайте полезные
-                       рассылки о путешествиях
-                    </p>
-                 </div>
-                  <div class="news__support">
-                     <div class="news__adress">
-                       <p class="email">Введите e-mail адрес</p>
-                        <p class="adress">name@domian.com</p>
-                         <div class="news__button">
-                           <button class="subscriptions">Подписаться на новости</button>
-                         </div>
-                     </div>
+          <div class="offers">
+              <div class="container">
+                  <div class="offers__content-button">
+                        <div class="offers__title">
+                            <p class="title--1">по версии отдыхающих</p>
+                              <p class="descriptions--1">Популярные направления</p>
+                        </div>
+                          <div class="offers__cards">
+                              <div class="offers__card">
+                                  <img src="projectfour/images/image grev.png" alt="grev" class="offers__img">
+                                    <div class="offers__content">
+                                        <p class="content__title--1">Озеро возле гор</p>
+                                          <p class="content__descriptions--1">романтическое приключение</p>
+                                            <div class="offers__prices">
+                                                <p class="prices">480 $</p>
+                                              </div>
+                                    </div>
+                              </div>
+                                <div class="offers__card">
+                                    <img src="projectfour/images/image lod.png" alt="lod" class="offers__img">
+                                      <div class="offers__content">
+                                          <p class="content__title--1">Ночь в горах</p>
+                                            <p class="content__descriptions--1">в компании друзей</p>
+                                              <div class="offers__prices">
+                                                  <p class="prices">500 $</p>
+                                      </div>
+                                      </div>
+                                </div>
+                                  <div class="offers__card">
+                                      <img src="projectfour/images/image ioga.png" alt="ioga" class="offers__img">
+                                        <div class="offers__content">
+                                            <p class="content__title--1">Йога в горах</p>
+                                              <p class="content__descriptions--1">для тех, кто заботится о себе</p>
+                                                <div class="offers__prices">
+                                                    <p class="prices">280 $</p>
+                                                      </div>
+                                        </div>
+                                  </div>
+                          </div>
+                            <div class="rating__button">
+                                <button class="rating">Рейтинг направлений</button>
+                            </div>
                   </div>
-                   <div class="support">
-                     <p class="support__text">подписываясь на новости, вы автоматически соглашаетесь с <a href="#" class="conditions">условиями
-                       обработки персональных данных и правилами рекламных рассылок
-                     </a></p>
-                   </div>
-               </div>
-             </div>
+              </div>
           </div>
 
 
-           <div class="footer">
-             <div class="containere">
-               <div class="footer__block-one">
-                  <div class="footer__title-text">
-                     <p class="footer__text">Компания "РумТимбет"</p>
-                  </div>
-                   <div class="footer__descriptions-text">
-                     <p class="footer__descriptions">Его корни уходят в один фрагмент классической латыни 45 года
-                       н.э., то есть более двух тысячилетий назад. Ричард МакКлинток,
-                        профессор латыни из колледжа Hampden-Sydney.
-                     </p>
-                   </div>
-                     <div class="footer__contacts">
-                       <p class="contacts__email">info@domian.com</p>
-                        <p class="contacts__number">+7(123) 456-78-90</p>
-                     </div>
-                      <div class="footer__links">
-                         <img src="projectfour/images/telegram.png" alt="telegram" class="links">
-                          <img src="projectfour/images/vk.png" alt="vk" class="links">
-                           <img src="projectfour/images/pinterest.png" alt="pinterest" class="links">
-                            <img src="projectfour/images/skype.png" alt="skype" class="links">
+            <div class="features">
+                <div class="container">
+                    <div class="features__title-content-cards">
+                        <div class="features__title">
+                            <p class="title--2">делимся впечатлениями</p>
+                              <p class="descriptions--2">Блог о путешествиях</p>
+                        </div>
+                      <div class="features__cards">
+                          <div class="features__card">
+                              <img src="projectfour/images/italy house.png" alt="house" class="features__img">
+                            <div class="features__content">
+                                <div class="features__content-title">
+                                    <p class="content__title--2">Красивая Италия,какая
+                                        она в реальности?
+                                    </p>
+                                </div>
+                                  <div class="features__descriptions">
+                                      <p class="features__descriptions--1">Для современного мира базовый вектор
+                                          развития предполагает независимые
+                                            способы реализации соответствующих
+                                              условий активизации.
+                                      </p>
+                                  </div>
+                                    <div class="features__date">
+                                        <p class="date--1">01/04/2026</p>
+                                          <p class="date--2">читать статью</p>
+                                    </div>
+                            </div>
                       </div>
-               </div>
-                 <div class="footer__block-two">
-                   <div class="footer__title-text">
-                     <p class="footer__text">Наши услуги</p>
-                   </div>
-                    <div class="footer__linked">
-                       <a href="#" class="linked">Прогулки в горы летом</a>
-                        <a href="#" class="linked">Зимние походы</a>
-                         <a href="#" class="linked">Посещение храмов в горах</a>
-                          <a href="#" class="linked">Экстремальные виды туризма</a>
-                           <a href="#" class="linked">Походы в джунглях Амазонии</a>
-                            <a href="#" class="linked">Поездка в Африку</a> 
-                    </div>
-                 </div>
-                  <div class="footer__block-three">
-                     <div class="footer__title-text">
-                       <p class="footer__text">Важно для петешествий</p>
-                     </div>
-                      <div class="footer__linked">
-                         <a href="#" class="linked">Как собрать в долгий поход</a>
-                          <a href="#" class="linked">Жизненно важные предметы для
-                             похода
-                          </a>
-                           <a href="#" class="linked">Медицинская страховка, гарантии
-                             безопасности
-                           </a>
-                            <a href="#" class="linked">Если вы врач - зягляните сюда</a>
+                        <div class="features__card">
+                            <img src="projectfour/images/image nebo.png" alt="nebo" class="features__img">
+                              <div class="features__content">
+                                  <div class="features__content-title">
+                                      <p class="content__title--2">Долой сомнения!Весь
+                                          мир открыт для вас!
+                                      </p>
+                                  </div>
+                                    <div class="features__descriptions">
+                                        <p class="features__descriptions--1">Для современного мира базовый вектор
+                                            развития предполагает независимые
+                                            способы реализации соответствующих
+                                              условий активизации ... независимые
+                                                способы реализации соответствующих усл ...
+                                        </p>
+                                    </div>
+                                      <div class="features__date">
+                                          <p class="date--1">01/04/2026</p>
+                                            <p class="date--2">читать статью</p>
+                                      </div>
+                              </div>
+                        </div>
+                          <div class="features__card">
+                              <img src="projectfour/images/image human city.png" alt="city" class="features__img">
+                                <div class="features__content">
+                                    <div class="features__content-title">
+                                        <p class="content__title--2">Как подготовится к
+                                            путешествию в 
+                                              одиночку?
+                                        </p>
+                                    </div>
+                                      <div class="features__descriptions">
+                                          <p class="features__descriptions--1">Для современного мира базовый вектор
+                                              развития предполагает.
+                                          </p>
+                                      </div>
+                                        <div class="features__date">
+                                            <p class="date--1">01/04/2026</p>
+                                              <p class="date--2">читать полностью</p>
+                                        </div>
+                                </div>
+                          </div>
+                            <div class="features__card">
+                                <img src="projectfour/images/image mahal.png" alt="mahal" class="features__img">
+                                  <div class="features__content">
+                                      <div class="features__content-title">
+                                          <p class="content__title--2">Индия...летим ?</p>
+                                      </div>
+                                        <div class="features__descriptions">
+                                              <p class="features__descriptions--1">Для современного мира базовый.</p>
+                                        </div>
+                                          <div class="features__date">
+                                              <p class="date--1">01/04/2026</p>
+                                                <p class="date--2">читать полностью</p>
+                                          </div>
+                                  </div>
+                            </div>
                       </div>
-                  </div>
-             </div>
-           </div>
-
-            <div class="podval">
-               <div class="container">
-                  <div class="podval__name">
-                     <p class="podval__names">ИП Константинопольский К.К., 2023</p>
-                      <a href="#" class="podval__politics">Политика обработки персональных данных</a>
-                  </div>
-               </div>
+                        <div class="features__button">
+                            <button class="feat">Другие материалы</button>
+                        </div>
             </div>
+          </div>
+            </div>
+
+              <div class="photos">
+                  <div class="container">
+                      <div class="photos__title-image">
+                          <div class="photos__title">
+                              <p class="title--3">фото-отчёт</p>
+                                <p class="descriptions--3">Делимся впечатлениями</p>
+                          </div>
+                            <div class="images__grid">
+                                <img src="projectfour/images/image cappadocia.png" alt="cappadocia" class="photos__img--1">
+                                  <img src="projectfour/images/image sands.png" alt="sands" class="photos__img--2">
+                                    <img src="projectfour/images/image map.png" alt="map" class="photos__img--2">
+                                      <img src="projectfour/images/image conoin.png" alt="conoin" class="photos__img--1">
+                                        <img src="projectfour/images/image parus.png" alt="parus" class="photos__img--2">
+                                          <img src="projectfour/images/image jons.png" alt="jons" class="photos__img--2">
+                            </div>
+                              <div class="pinterest__btn">
+                                  <button class="pinterest">Наш pinterest</button>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+
+
+                <div class="footer">
+                    <div class="container">
+                        <div class="footer__contacts">
+                            <div class="footer__title">
+                                <p class="title--4">актуально</p>
+                                  <p class="descriptions--4">Получайте полезные
+                                      рассылки о путешествиях
+                                  </p>
+                            </div>
+                              <div class="footer__support">
+                                  <div class="footer__email">
+                                      <p class="email__text">Введите e-mail адрес</p>
+                                        <p class="email">name@domian.com</p>
+                                          <div class="support__button">
+                                              <button class="support">Подписаться на новости</button>
+                                          </div>
+                                  </div>
+                                    <div class="footer__base">
+                                        <p class="base">подписываясь на новости,вы автоматически соглашаетесь с <a href="#" class="base__link">условиями
+                                            обработки персональных данных и правилами рекламных рассылок
+                                        </a></p>
+                                    </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                  <div class="podval">
+                      <div class="container">
+                          <div class="podval__content">
+                              <div class="podval__blocks">
+                                  <div class="podval__card--1">
+                                      <div class="podval__title">
+                                          <p class="title--5">Компания "РумТимБет"</p>
+                                      </div>
+                                        <div class="podval__descriptions">
+                                            <p class="descriptions--5">Его корни уходят в один фрагмент классической латыни 45 года
+                                                н.э., то есть более двух тысячелетий назад.Ричард МакКлинток,
+                                                  профессор латыни из колледжа Hampden-Sydney.
+                                            </p>
+                                        </div>
+                                          <div class="podval__contacts">
+                                              <a href="#" class="number">+7(123)456-78-90</a>
+                                                <a href="#" class="email--1">info@domian.com</a>
+                                          </div>
+                                            <div class="podval__links">
+                                                <img src="projectfour/images/telegram.png" alt="telegram" class="links__img">
+                                                  <img src="projectfour/images/vk.png" alt="vk" class="links__img">
+                                                    <img src="projectfour/images/pinterest.png" alt="pinterest" class="links__img">
+                                                      <img src="projectfour/images/skype.png" alt="skype" class="links__img">
+                                            </div>
+                                  </div>
+                                    <div class="podval__card--2">
+                                        <div class="podval__title">
+                                            <p class="title--5">Наши услуги</p>
+                                        </div>
+                                          <div class="podval__service">
+                                                <ul class="service__list">
+                                                    <li class="service__item">
+                                                        <span class="arrow">></span>
+                                                          <a href="#" class="links--1">прогулки в горы летом</a>
+                                                    </li>
+                                                      <li class="service__item">
+                                                          <span class="arrow">></span>
+                                                            <a href="#" class="links--1">Зимние походы в горы</a>
+                                                      </li>
+                                                        <li class="service__item">
+                                                            <span class="arrow">></span>
+                                                              <a href="#" class="links--1">Посещение храмов в горах</a>
+                                                        </li>
+                                                          <li class="service__item">
+                                                              <span class="arrow">></span>
+                                                                <a href="#" class="links--1">Экстремальные виды туризма</a>
+                                                          </li>
+                                                            <li class="service__item">
+                                                                <span class="arrow">></span>
+                                                                  <a href="#" class="links--1">Походы в джунглях Амазонии</a>
+                                                            </li>
+                                                              <li class="service__item">
+                                                                  <span class="arrow">></span>
+                                                                    <a href="#" class="links--1">Поездка в Африку</a>
+                                                              </li>
+                                                </ul>
+                                          </div>
+                                    </div>
+                                      <div class="podval__card--3">
+                                            <div class="podval__title">
+                                                <p class="title--5">Важно для путешествий</p>
+                                            </div>
+                                              <div class="podval__service">
+                                                  <ul class="service__list">
+                                                      <li class="service__item">
+                                                          <span class="arrow">></span>
+                                                            <a href="#" class="links--1">Как собрать в долгий поход?</a>
+                                                      </li>
+                                                        <li class="service__item">
+                                                            <span class="arrow">></span>
+                                                              <a href="#" class="links--1">Жизненно важные предметы для
+                                                                  похода</a>
+                                                        </li>
+                                                          <li class="service__item">
+                                                              <span class="arrow">></span>
+                                                                <a href="#" class="links--1">Медицинская страховка,гарантии
+                                                                    безопасности
+                                                                </a>
+                                                          </li>
+                                                            <li class="service__item">
+                                                                <span class="arrow">></span>
+                                                                  <a href="#" class="links--1">Есдли вы врач-загляните сюда</a>
+                                                            </li>
+                                                  </ul>
+                                              </div>
+                                      </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 </body>
 </html>
